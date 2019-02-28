@@ -1,3 +1,4 @@
-n,m=map(str,input().split())
-n,m=m,n
-print(n,m)
+N,M=map(str,input().split())
+N,M=M,N
+print(N,M)
+
