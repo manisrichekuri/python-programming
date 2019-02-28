@@ -1,11 +1,11 @@
 s=input().split()
-k=0
+g=0
 for x in s:
-    if(k<len(s)):
-        if(k%2==0):
-            s[k]=x[::-1]
-            k=k+1
+    if(g<len(s)):
+        if(g%2==0):
+            s[g]=x[::-1]
+            g=g+1
         else:
-            k=k+1
-g=" ".join(map(str,s))
-print(g)
+            g=g+1
+v=" ".join(map(str,s))
+print(v)
