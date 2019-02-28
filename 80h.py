@@ -1,2 +1,3 @@
-S=str(input())
-print(S[::-1])
+n,m=map(str,input().split())
+n,m=m,n
+print(n,m)
